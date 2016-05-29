@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/projectile test 2.unity
+  isLoaded: 1
+  isActive: 1
