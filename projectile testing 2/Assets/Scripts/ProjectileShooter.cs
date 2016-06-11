@@ -32,12 +32,9 @@ public class ProjectileShooter : MonoBehaviour {
 
         }
 	}
-    void OnTriggerEnter(Collider col)
-    {
-        print(col.name);
-    }
     void OnCollisionEnter(Collision col)
     {
+        Debug.Log("EHH");
         //if (projectile)
         //print(col.collider.name);
     }

@@ -12,4 +12,10 @@ public class ProjectileCol : MonoBehaviour {
 	void Update () {
 	
 	}
+    void OnCollisionEnter(Collision col)
+    {
+        Debug.Log("EHH");
+        //if (projectile)
+        //print(col.collider.name);
+    }
 }
