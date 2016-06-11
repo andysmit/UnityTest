@@ -17,7 +17,7 @@ public class CannonShooter : MonoBehaviour
     {
         if (Random.Range(1,1000) == 42)
         {
-            GetComponent<AudioSource>().Play();
+            //GetComponent<AudioSource>().Play();
             GameObject projectile = Instantiate(prefab) as GameObject;
             projectile.transform.position = transform.position;
             Rigidbody rb = projectile.GetComponent<Rigidbody>();

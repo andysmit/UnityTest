@@ -17,5 +17,7 @@ public class CannonTargeting : MonoBehaviour {
         Vector3 newDir = Vector3.RotateTowards(transform.forward, targetDir, step, 0.0F);
         Debug.DrawRay(transform.position, newDir, Color.red);
         transform.rotation = Quaternion.LookRotation(newDir);
+        
+        //Destroy(gameObject,10);
     }
 }
